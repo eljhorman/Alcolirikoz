@@ -1,0 +1,108 @@
+.btn-twitter{
+    background-color: #4eb910;
+    color: white;
+   
+}
+
+a.btn-twitter:hover{
+    color: white;
+    box-shadow: -2px 3px 6px rgb(167, 9, 9);
+}
+
+/* GLOBAL */
+
+body, html, .container, .row{
+    height: 100vh;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+}
+
+/*
+
+    ESTILOS FORMULARIO
+
+*/
+
+div.col-lg-4
+{
+    border: 10px solid transparent;
+    border-image: linear-gradient(to bottom, #339c97, #339c97) 1;
+}
+
+button.btn-success
+{
+    margin: 10px 0px;
+    background-image: linear-gradient(to bottom,#10b3aa, #339c97);
+    border: 0;
+}
+
+div.form-group{
+    margin: 10px auto;
+}
+
+/*
+
+    ESTILOS TARJETA
+    
+*/
+
+.col-lg-7 .card-header, .card-footer{
+    background-image: linear-gradient(to right, #10b3aa, #10b3aa);
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: 'Jura', sans-serif;
+    
+}
+
+.card-body
+{
+    background-image: url('/images/descarga.png');
+}
+
+.card-content
+{   background-color: aliceblue;
+    
+    width: fit-content;
+    margin: 5px auto;
+    padding: 50px 20px;
+   
+}
+
+.card-content img
+{   cursor: pointer;
+    border-radius:35%;
+    width: 260px;
+    height: 260px;
+    margin: 0px auto 25px auto;
+    transition: all 1s;
+}
+
+.card-content img:hover{
+    transform: scale(1.1);
+}
+
+.card-title
+{   
+    
+    font-weight: 700;
+    background: linear-gradient(to bottom,#000000, #223946);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: rgb(0, 224, 112);
+    font-size: 30px;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Student
+{
+    font-weight: 700;
+}
+
+.Aprendido
+{
+    font-size: 20px;
+}
